@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon RPG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pokémon RPG</h1>
+  
+  <div id="game">
+    <div id="player-pokemon">
+      <h2>Seu Pokémon:</h2>
+      <p id="player-name"></p>
+      <p id="player-hp">HP: <span id="player-hp-value"></span></p>
+    </div>
+
+    <div id="battle-log">
+      <h3>Log de Batalha:</h3>
+      <ul id="log"></ul>
+    </div>
+
+    <div id="enemy-pokemon">
+      <h2>Pokémon Inimigo:</h2>
+      <p id="enemy-name"></p>
+      <p id="enemy-hp">HP: <span id="enemy-hp-value"></span></p>
+    </div>
+
+    <button id="attack-btn">Atacar!</button>
+    <button id="heal-btn">Curar!</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

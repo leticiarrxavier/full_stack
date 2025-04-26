@@ -21,6 +21,7 @@ body {
 
 table, th, td {
     border: 1px solid #ffffff;
+    width: 50%;
 
 }
 
@@ -45,4 +46,12 @@ section {
     margin: 10px;
     background-color:aqua(46, 46, 46);
 
+}
+
+.Voltar{
+    width: 7%;
+}
+
+.Proxima{
+  width: 15%;
 }
