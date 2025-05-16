@@ -1,3 +1,4 @@
+
 let canvas1 = document.getElementById('canvas1');
 let ctx = canvas1.getContext('2d');
 
@@ -310,3 +311,6 @@ ctx.fillStyle = '#5C3C2B';
 ctx.fillRect(186.5,252,20,48);
 ctx.closePath();
 }
+
+
+
